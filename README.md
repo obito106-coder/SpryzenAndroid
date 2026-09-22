@@ -1,24 +1,34 @@
-# PersonalAI V1
+# Spryzen Android
 
-A SwiftUI iPhone/iPad starter app for a personal AI workspace.
+Spryzen is a personal AI assistant app for Android.
 
-## Included
-- AI Chat screen with local demo responses
-- Notes
-- Tasks
-- AI Image workspace placeholder
+## Features
+
+- Personal AI assistant interface
+- AI chat workspace
+- Notes and tasks
 - Files workspace
 - Reminders
 - Settings
-- iPhone/iPad adaptive layout
-- Dark/light appearance support
-- Local in-memory demo data
+- Custom Spryzen branding
 
-## Open in Xcode
-1. Create a new Xcode project: iOS App, SwiftUI, Swift.
-2. Name it `PersonalAI`.
-3. Replace the generated Swift files with the files in `PersonalAI/`.
-4. Set deployment target to iOS 17 or later.
-5. Run on an iPhone or iPad simulator/device.
+## Requirements
 
-The AI chat currently uses a local demo response engine. To connect a real AI API later, replace `AIService` with your chosen backend/API and keep API keys out of the iOS client.
+- Android Studio
+- Android SDK
+- Android 7.0 (API 24) or later
+
+## Build
+
+1. Open the project in Android Studio.
+2. Let Gradle sync complete.
+3. Connect an Android device or start an emulator.
+4. Press Run.
+
+## Project
+
+SpryzenAndroid is an Android application project built for a personal AI assistant experience.
+
+## Status
+
+Version 1 — Android starter project.
